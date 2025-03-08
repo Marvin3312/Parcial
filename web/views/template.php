@@ -31,15 +31,9 @@ $path = TemplateController::path(); // Obtiene la ruta base
     <div class="wrapper">
       <?php
       include 'modules/nav.php';
-
-
-    
       include "modules/header.php";
-
-      
       include 'pages/login/login.php';
       include 'pages/portfolio/portfolio.php';
-      
       include 'pages/contact/contact.php';
       include 'modules/footer.php';
       include 'modules/copyright.php';
